@@ -1961,6 +1961,12 @@ progress {
     -webkit-overflow-scrolling: touch;
   }
 }
+
+@font-face {
+  font-family: 'marker';
+  src: url('dripping.ttf') format('truetype');
+}
+
 .form-label {
   margin-bottom: 0.5rem;
 }
@@ -11044,4 +11050,20 @@ header.masthead h1, header.masthead .h1 {
 .lineHeight{
   line-height: 1.5rem;
   font-size: 0.8rem;
+}
+
+#contact{
+  padding-bottom: 0;
+}
+
+.fontMarker{
+  font-family:'marker';
+}
+
+.backgroundCall{
+  background-color: #62bb85;
+}
+
+#hist{
+  width: 35px;
 }
